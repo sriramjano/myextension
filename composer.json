@@ -1,0 +1,38 @@
+{
+    // package name
+    "name": "sriram/yii2-my-first-extension",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "The Imagine integration for the Yii framework",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/sriramjano/myextension/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/sriramjano/myextension"
+    },
+    "authors": [
+        {
+            "name": "Sriram Panneerselvam",
+            "email": "sriramjano@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+            "yiisoft/yii2": "~2.0.0",
+//          "bower-asset/jquery": ">=1.11.*"
+
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "yii\\myFristExtension\\": ""
+        }
+    }
+}
